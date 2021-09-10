@@ -7,5 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
+var primeiraLista:[Int] = [1, 2, 3, 4]
+var segundaLista:[Int] = [1, 2, 5, 8]
+var listasConcatenadas: Array<Int> = []
 
+print("Concatenação das Listas")
+
+listasConcatenadas = primeiraLista + segundaLista
+
+print(listasConcatenadas)
